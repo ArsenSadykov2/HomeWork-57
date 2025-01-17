@@ -3,6 +3,7 @@ import './App.css'
 import {useState} from "react";
 import {User} from "./types.s.ts";
 import UserForm from "./components/UserForm.tsx";
+import Users from "./components/Users.tsx";
 
 const App = () => {
     const [users, setUsers] = useState<User[]>([]);

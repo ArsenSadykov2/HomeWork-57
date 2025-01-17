@@ -12,3 +12,7 @@ export interface UserFormProps {
 export interface UserItemProps {
     user: User;
 }
+
+export interface UsersProps {
+    users: User[];
+}
