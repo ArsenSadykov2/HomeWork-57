@@ -8,3 +8,7 @@ export interface User {
 export interface UserFormProps {
     addUser: (user: User) => void;
 }
+
+export interface UserItemProps {
+    user: User;
+}
